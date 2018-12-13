@@ -1,0 +1,14 @@
+#include "Group.h"
+
+
+Group::Group(){}
+
+Group::~Group(){}
+
+Buffer Group::GetBuffer(INT32 index){
+    return this->buffer[index];
+}
+
+
+
+
